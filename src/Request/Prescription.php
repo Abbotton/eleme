@@ -5,7 +5,7 @@ namespace Abbotton\Eleme\Request;
 class Prescription extends BaseRequest
 {
     /**
-     * 获取订单相关处方单
+     * 获取订单相关处方单.
      *
      * @param  array  $params
      * @return string
@@ -16,7 +16,7 @@ class Prescription extends BaseRequest
     }
 
     /**
-     * 处方药推方
+     * 处方药推方.
      *
      * @param  array  $params
      * @return string
@@ -50,7 +50,7 @@ class Prescription extends BaseRequest
     }
 
     /**
-     * 三方医疗-回传处方
+     * 三方医疗-回传处方.
      *
      * @param array $params
      * @return string

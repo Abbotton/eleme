@@ -28,7 +28,7 @@ class BaseRequest
         $method = strtoupper($method);
 
         $options['headers'] = [
-            'Content-Type' => 'application/x-www-form-urlencoded'
+            'Content-Type' => 'application/x-www-form-urlencoded',
         ];
 
         $response = $this->client->request($method, $url, $options);
@@ -58,22 +58,23 @@ class BaseRequest
         if (function_exists('com_create_guid')) {
             $uuid = trim(com_create_guid(), '{}');
         } else {
-            mt_srand((double)microtime() * 10000);
+            mt_srand((float) microtime() * 10000);
             $charId = strtoupper(md5(uniqid(rand(), true)));
             $hyphen = chr(45);
-            $uuid = substr($charId, 0, 8) . $hyphen
-                . substr($charId, 8, 4) . $hyphen
-                . substr($charId, 12, 4) . $hyphen
-                . substr($charId, 16, 4) . $hyphen
-                . substr($charId, 20, 12);
+            $uuid = substr($charId, 0, 8).$hyphen
+                .substr($charId, 8, 4).$hyphen
+                .substr($charId, 12, 4).$hyphen
+                .substr($charId, 16, 4).$hyphen
+                .substr($charId, 20, 12);
         }
+
         return strtoupper($uuid);
     }
 
     private function generateSign(array $params)
     {
         ksort($params);
-        $tmp = array();
+        $tmp = [];
         foreach ($params as $key => &$value) {
             $tmp[] = "$key=$value";
         }

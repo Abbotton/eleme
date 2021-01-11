@@ -5,7 +5,7 @@ namespace Abbotton\Eleme\Request;
 class Activity extends BaseRequest
 {
     /**
-     * 下线商品营销活动
+     * 下线商品营销活动.
      *
      * @param  array  $params
      * @return string
@@ -16,7 +16,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 创建商品营销活动
+     * 创建商品营销活动.
      *
      * @param  array  $params
      * @return string
@@ -27,7 +27,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 查看活动信息
+     * 查看活动信息.
      *
      * @param  array  $params
      * @return string
@@ -126,7 +126,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 查看活动商品信息
+     * 查看活动商品信息.
      *
      * @param  array  $params
      * @return string
@@ -159,7 +159,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 更新活动信息
+     * 更新活动信息.
      *
      * @param  array  $params
      * @return string
@@ -170,7 +170,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 创建第N件特价活动
+     * 创建第N件特价活动.
      *
      * @param array $params
      * @return string
@@ -181,7 +181,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 店铺类活动添加单个店铺
+     * 店铺类活动添加单个店铺.
      *
      * @param array $params
      * @return string
@@ -192,7 +192,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 查看买N赠M查询活动商品信息列表
+     * 查看买N赠M查询活动商品信息列表.
      *
      * @param array $params
      * @return string
@@ -203,7 +203,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 更新第N件特价活动商品库存、日库存
+     * 更新第N件特价活动商品库存、日库存.
      *
      * @param array $params
      * @return string
@@ -214,7 +214,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 多渠道查询活动详情
+     * 多渠道查询活动详情.
      *
      * @param array $params
      * @return string
@@ -225,7 +225,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 更新N选1活动信息
+     * 更新N选1活动信息.
      *
      * @param array $params
      * @return string
@@ -236,7 +236,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 多渠道查询获取参与的活动IdList
+     * 多渠道查询获取参与的活动IdList.
      *
      * @param array $params
      * @return string
@@ -258,7 +258,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 店铺类活动查询活动明细信息
+     * 店铺类活动查询活动明细信息.
      *
      * @param array $params
      * @return string
@@ -269,7 +269,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 查看买N赠M活动信息
+     * 查看买N赠M活动信息.
      *
      * @param array $params
      * @return string
@@ -280,7 +280,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 店铺类活动信息修改
+     * 店铺类活动信息修改.
      *
      * @param array $params
      * @return string
@@ -302,7 +302,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 批量更新买N赠M活动商品库存、日库存信息
+     * 批量更新买N赠M活动商品库存、日库存信息.
      *
      * @param array $params
      * @return string
@@ -313,7 +313,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 更新第N件特价活动信息
+     * 更新第N件特价活动信息.
      *
      * @param array $params
      * @return string
@@ -324,7 +324,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 店铺类活动删除店铺
+     * 店铺类活动删除店铺.
      *
      * @param array $params
      * @return string
@@ -335,7 +335,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 查看第N件特价活动信息
+     * 查看第N件特价活动信息.
      *
      * @param array $params
      * @return string
@@ -346,7 +346,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 店铺类活动删除单个店铺
+     * 店铺类活动删除单个店铺.
      *
      * @param array $params
      * @return string
@@ -357,7 +357,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 更新买N赠M活动信息
+     * 更新买N赠M活动信息.
      *
      * @param array $params
      * @return string
@@ -368,7 +368,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 创建店铺类活动
+     * 创建店铺类活动.
      *
      * @param array $params
      * @return string
@@ -379,7 +379,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 店铺类活动查询活动信息
+     * 店铺类活动查询活动信息.
      *
      * @param array $params
      * @return string
@@ -390,7 +390,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 更新买N赠M活动商品库存、日库存等
+     * 更新买N赠M活动商品库存、日库存等.
      *
      * @param array $params
      * @return string
@@ -401,7 +401,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 店铺类活动添加店铺
+     * 店铺类活动添加店铺.
      *
      * @param array $params
      * @return string
@@ -412,7 +412,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 创建买N赠M营销活动
+     * 创建买N赠M营销活动.
      *
      * @param array $params
      * @return string
@@ -445,7 +445,7 @@ class Activity extends BaseRequest
     }
 
     /**
-     * 批量更新第N件特价活动商品库存、日库存
+     * 批量更新第N件特价活动商品库存、日库存.
      *
      * @param array $params
      * @return string
