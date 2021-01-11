@@ -9,9 +9,6 @@ use GuzzleHttp\Psr7\Response;
 
 class RequestTest extends TestCase
 {
-    /**
-     * @skip
-     */
     public function test_all_requests_will_return_the_correct_response()
     {
         $mock = new MockHandler();
