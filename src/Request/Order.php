@@ -9,6 +9,7 @@ class Order extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function deliveryStatusPush(array $params)
     {
@@ -20,6 +21,7 @@ class Order extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function partRefundPush(array $params)
     {
@@ -31,6 +33,7 @@ class Order extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function remindPush(array $params)
     {
@@ -42,6 +45,7 @@ class Order extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function statusPush(array $params)
     {
@@ -53,6 +57,7 @@ class Order extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function userCancel(array $params)
     {
@@ -64,6 +69,7 @@ class Order extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function create(array $params)
     {
@@ -365,5 +371,93 @@ class Order extends BaseRequest
     public function list(array $params)
     {
         return $this->post('order.list', $params);
+    }
+
+    /**
+     * 获取账单
+     *
+     * @param array $params
+     * @return string
+     */
+    public function billGet(array $params)
+    {
+        return $this->post('bill.get', $params);
+    }
+
+    /**
+     * 获取账单订单明细信息
+     *
+     * @param array $params
+     * @return string
+     */
+    public function billOrderDetail(array $params)
+    {
+        return $this->post('bill.orderdetail', $params);
+    }
+
+    /**
+     * 自配送接入骑手轨迹
+     *
+     * @param array $params
+     * @return string
+     */
+    public function selfDeliveryLocationSync(array $params)
+    {
+        return $this->post('order.selfDeliveryLocationSync', $params);
+    }
+
+    /**
+     * 商家主动发起多次部分退
+     *
+     * @param array $params
+     * @return string
+     */
+    public function manyTimesPartrefund(array $params)
+    {
+        return $this->post('order.manyTimesPartrefund', $params);
+    }
+
+    /**
+     * 自配送接入骑手状态
+     *
+     * @param array $params
+     * @return string
+     */
+    public function selfDeliveryStateSync(array $params)
+    {
+        return $this->post('order.selfDeliveryStateSync', $params);
+    }
+
+    /**
+     * 用户多次退商家同意
+     *
+     * @param array $params
+     * @return string
+     */
+    public function agreePartRefund(array $params)
+    {
+        return $this->post('order.agreepartrefund', $params);
+    }
+
+    /**
+     * 代客发起
+     *
+     * @param array $params
+     * @return string
+     */
+    public function userPartRefund(array $params)
+    {
+        return $this->post('order.user.partrefund', $params);
+    }
+
+    /**
+     * 代客发起
+     *
+     * @param array $params
+     * @return string
+     */
+    public function acceptAnceCode(array $params)
+    {
+        return $this->post('order.query.acceptancecode', $params);
     }
 }

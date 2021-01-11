@@ -64,6 +64,7 @@ class Shop extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function bindMsg(array $params)
     {
@@ -141,6 +142,7 @@ class Shop extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function msgPush(array $params)
     {
@@ -185,6 +187,7 @@ class Shop extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function unbindMsg(array $params)
     {

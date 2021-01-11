@@ -3,22 +3,17 @@
 namespace Abbotton\Eleme\Request;
 
 use Abbotton\Eleme\Config;
-use GuzzleHttp\Client;
 
 class BaseRequest
 {
-    protected $guzzleOptions = [];
+    private $client;
 
     private $config;
 
-    public function __construct(Config $config)
+    public function __construct(Config $config, $client)
     {
         $this->config = $config;
-    }
-
-    public function setGuzzleOptions(array $options)
-    {
-        $this->guzzleOptions = $options;
+        $this->client = $client;
     }
 
     protected function post($cmd, array $params = [])
@@ -36,14 +31,9 @@ class BaseRequest
             'Content-Type' => 'application/x-www-form-urlencoded'
         ];
 
-        $response = $this->getHttpClient()->request($method, $url, $options);
+        $response = $this->client->request($method, $url, $options);
 
         return $response->getBody()->getContents();
-    }
-
-    public function getHttpClient()
-    {
-        return new Client($this->guzzleOptions);
     }
 
     private function getParams(string $cmd, array $body)
@@ -71,11 +61,11 @@ class BaseRequest
             mt_srand((double)microtime() * 10000);
             $charId = strtoupper(md5(uniqid(rand(), true)));
             $hyphen = chr(45);
-            $uuid = substr($charId, 0, 8).$hyphen
-                .substr($charId, 8, 4).$hyphen
-                .substr($charId, 12, 4).$hyphen
-                .substr($charId, 16, 4).$hyphen
-                .substr($charId, 20, 12);
+            $uuid = substr($charId, 0, 8) . $hyphen
+                . substr($charId, 8, 4) . $hyphen
+                . substr($charId, 12, 4) . $hyphen
+                . substr($charId, 16, 4) . $hyphen
+                . substr($charId, 20, 12);
         }
         return strtoupper($uuid);
     }

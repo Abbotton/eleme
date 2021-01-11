@@ -47,4 +47,26 @@ class Common extends BaseRequest
     {
         return $this->post('common.shopcities', $params);
     }
+
+    /**
+     * 查询商户分类信息
+     *
+     * @param array $params
+     * @return string
+     */
+    public function shopCategoryGet(array $params)
+    {
+        return $this->post('common.shop.category.get', $params);
+    }
+
+    /**
+     * 获取城市信息
+     *
+     * @param array $params
+     * @return string
+     */
+    public function shopCityGet(array $params)
+    {
+        return $this->post('common.shop.city.get', $params);
+    }
 }

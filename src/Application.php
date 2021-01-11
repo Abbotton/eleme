@@ -10,6 +10,7 @@ use Abbotton\Eleme\Request\Shop;
 use Abbotton\Eleme\Request\Sku;
 use Abbotton\Eleme\Request\Ugc;
 use Exception;
+use GuzzleHttp\Client;
 
 /**
  * Class Application
@@ -26,10 +27,12 @@ use Exception;
 class Application
 {
     private $config;
+    private $client;
 
     public function __construct($config)
     {
         $this->config = new Config($config);
+        $this->client = new Client();
     }
 
     public function __get($name)
@@ -40,9 +43,15 @@ class Application
             if (!class_exists($application)) {
                 throw new Exception($class_name.'不存在');
             }
-            $this->$name = new $application($this->config);
+            $this->$name = new $application($this->config, $this->client);
         }
 
         return $this->$name;
+    }
+
+    public function setHttpClient($client) : self
+    {
+        $this->client = $client;
+        return $this;
     }
 }

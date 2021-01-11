@@ -278,4 +278,70 @@ class Sku extends BaseRequest
     {
         return $this->post('sku.uploadrtf', $params);
     }
+
+    /**
+     * 查询平台商品条码
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function stdUpcBarcode(array $params)
+    {
+        return $this->post('sku.stdupc.barcode', $params);
+    }
+
+    /**
+     * 查询渠道商品的类目属性值
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function categoryPropertyQuery(array $params)
+    {
+        return $this->post('sku.category.property.query', $params);
+    }
+
+    /**
+     * 查询类目属性值列表
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function categoryPropertyList(array $params)
+    {
+        return $this->post('sku.category.property.list', $params);
+    }
+
+    /**
+     * 商品多规格修改库存
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function specStockUpdate(array $params)
+    {
+        return $this->post('sku.spec.stock.update', $params);
+    }
+
+    /**
+     * 增量更新单个商品库存
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function stockIncreaseOne(array $params)
+    {
+        return $this->post('sku.stock.increase.one', $params);
+    }
+
+    /**
+     * 更新渠道商品多规格价格
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function specUpdatePrice(array $params)
+    {
+        return $this->post('sku.spec.update.price', $params);
+    }
 }
