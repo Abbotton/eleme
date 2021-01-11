@@ -5,7 +5,7 @@ namespace Abbotton\Eleme\Request;
 class Sku extends BaseRequest
 {
     /**
-     * 新增店铺内分类
+     * 新增店铺内分类.
      *
      * @param  array  $params
      * @return string
@@ -16,7 +16,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 删除店铺内分类
+     * 删除店铺内分类.
      *
      * @param  array  $params
      * @return string
@@ -27,7 +27,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 获取店铺内分类
+     * 获取店铺内分类.
      *
      * @param  array  $params
      * @return string
@@ -49,7 +49,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 仓货品共享库存
+     * 仓货品共享库存.
      *
      * @param  array  $params
      * @return string
@@ -60,7 +60,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 获取商品类目列表
+     * 获取商品类目列表.
      *
      * @param  array  $params
      * @return string
@@ -82,7 +82,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 绑定商品与店铺内分类
+     * 绑定商品与店铺内分类.
      *
      * @param  array  $params
      * @return string
@@ -93,7 +93,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 修改店铺内分类
+     * 修改店铺内分类.
      *
      * @param  array  $params
      * @return string
@@ -126,7 +126,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 单个商品修改
+     * 单个商品修改.
      *
      * @param  array  $params
      * @return string
@@ -137,7 +137,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 获取品牌列表
+     * 获取品牌列表.
      *
      * @param  array  $params
      * @return string
@@ -148,7 +148,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 根据条形码查询是否平台药品SPU
+     * 根据条形码查询是否平台药品SPU.
      *
      * @param  array  $params
      * @return string
@@ -159,7 +159,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 商品列表
+     * 商品列表.
      *
      * @param  array  $params
      * @return string
@@ -170,7 +170,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 批量商品下架
+     * 批量商品下架.
      *
      * @param  array  $params
      * @return string
@@ -181,7 +181,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 单个商品下架
+     * 单个商品下架.
      *
      * @param  array  $params
      * @return string
@@ -192,7 +192,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 批量商品上架
+     * 批量商品上架.
      *
      * @param  array  $params
      * @return string
@@ -203,7 +203,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 单个商品上架
+     * 单个商品上架.
      *
      * @param  array  $params
      * @return string
@@ -236,7 +236,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 绑定商品与商品自定义ID
+     * 绑定商品与商品自定义ID.
      *
      * @param  array  $params
      * @return string
@@ -247,7 +247,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 批量修改商品库存
+     * 批量修改商品库存.
      *
      * @param  array  $params
      * @return string
@@ -258,7 +258,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 单个修改商品库存
+     * 单个修改商品库存.
      *
      * @param  array  $params
      * @return string
@@ -269,7 +269,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 商品图文详情上传
+     * 商品图文详情上传.
      *
      * @param  array  $params
      * @return string
@@ -302,7 +302,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 查询类目属性值列表
+     * 查询类目属性值列表.
      *
      * @param  array  $params
      * @return string
@@ -313,7 +313,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 商品多规格修改库存
+     * 商品多规格修改库存.
      *
      * @param  array  $params
      * @return string
@@ -324,7 +324,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 增量更新单个商品库存
+     * 增量更新单个商品库存.
      *
      * @param  array  $params
      * @return string

@@ -13,9 +13,8 @@ use Exception;
 use GuzzleHttp\Client;
 
 /**
- * Class Application
+ * Class Application.
  *
- * @package Abbotton\Eleme
  * @property Activity $activity
  * @property Common $common
  * @property Order $order
@@ -37,10 +36,10 @@ class Application
 
     public function __get($name)
     {
-        if (!isset($this->$name)) {
+        if (! isset($this->$name)) {
             $class_name = ucfirst($name);
             $application = "\\Abbotton\\Eleme\\Request\\{$class_name}";
-            if (!class_exists($application)) {
+            if (! class_exists($application)) {
                 throw new Exception($class_name.'不存在');
             }
             $this->$name = new $application($this->config, $this->client);
@@ -49,9 +48,10 @@ class Application
         return $this->$name;
     }
 
-    public function setHttpClient($client) : self
+    public function setHttpClient($client): self
     {
         $this->client = $client;
+
         return $this;
     }
 }

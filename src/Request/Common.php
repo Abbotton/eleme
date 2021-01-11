@@ -5,7 +5,7 @@ namespace Abbotton\Eleme\Request;
 class Common extends BaseRequest
 {
     /**
-     * 商户分类信息接口
+     * 商户分类信息接口.
      *
      * @param  array  $params
      * @return string
@@ -16,7 +16,7 @@ class Common extends BaseRequest
     }
 
     /**
-     * 业态分类接口
+     * 业态分类接口.
      *
      * @param  array  $params
      * @return string
@@ -27,7 +27,7 @@ class Common extends BaseRequest
     }
 
     /**
-     * 上传图片
+     * 上传图片.
      *
      * @param  array  $params
      * @return string
@@ -38,7 +38,7 @@ class Common extends BaseRequest
     }
 
     /**
-     * 城市信息接口文档
+     * 城市信息接口文档.
      *
      * @param  array  $params
      * @return string
@@ -49,7 +49,7 @@ class Common extends BaseRequest
     }
 
     /**
-     * 查询商户分类信息
+     * 查询商户分类信息.
      *
      * @param array $params
      * @return string
@@ -60,7 +60,7 @@ class Common extends BaseRequest
     }
 
     /**
-     * 获取城市信息
+     * 获取城市信息.
      *
      * @param array $params
      * @return string

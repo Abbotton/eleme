@@ -14,13 +14,13 @@ class Config
 
     public function __construct(array $config = [])
     {
-        if (!isset($config['app_id']) || $config['app_id'] == '') {
+        if (! isset($config['app_id']) || $config['app_id'] == '') {
             throw new Exception('请设置app_id');
         }
-        if (!isset($config['app_secret']) || $config['app_secret'] == '') {
+        if (! isset($config['app_secret']) || $config['app_secret'] == '') {
             throw new Exception('请设置app_secret');
         }
-        if (!isset($config['access_token']) || $config['access_token'] == '') {
+        if (! isset($config['access_token']) || $config['access_token'] == '') {
             throw new Exception('请设置access_token');
         }
         $this->appKey = $config['app_id'];
