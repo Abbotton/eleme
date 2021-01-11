@@ -12,7 +12,7 @@ class TestCase extends BaseTestCase
         $config = [
             'app_id' => 'foo',
             'app_secret' => 'bar',
-            'access_token' => 'foobar'
+            'access_token' => 'foobar',
         ];
 
         return new Application($config);

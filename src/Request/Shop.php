@@ -5,7 +5,7 @@ namespace Abbotton\Eleme\Request;
 class Shop extends BaseRequest
 {
     /**
-     * 获取商户公告
+     * 获取商户公告.
      *
      * @param  array  $params
      * @return string
@@ -16,7 +16,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 设置商户公告
+     * 设置商户公告.
      *
      * @param  array  $params
      * @return string
@@ -27,7 +27,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 获取商户资质
+     * 获取商户资质.
      *
      * @param  array  $params
      * @return string
@@ -38,7 +38,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 获取全部资质类型
+     * 获取全部资质类型.
      *
      * @param  array  $params
      * @return string
@@ -49,7 +49,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 上传资质
+     * 上传资质.
      *
      * @param  array  $params
      * @return string
@@ -83,7 +83,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 商户歇业
+     * 商户歇业.
      *
      * @param  array  $params
      * @return string
@@ -94,7 +94,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 创建商户
+     * 创建商户.
      *
      * @param  array  $params
      * @return string
@@ -105,7 +105,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 查看商户
+     * 查看商户.
      *
      * @param  array  $params
      * @return string
@@ -116,7 +116,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 商户三方门店ID映射
+     * 商户三方门店ID映射.
      *
      * @param  array  $params
      * @return string
@@ -127,7 +127,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 商户列表
+     * 商户列表.
      *
      * @param  array  $params
      * @return string
@@ -138,7 +138,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 门店状态变更消息通知
+     * 门店状态变更消息通知.
      *
      * @param  array  $params
      * @return string
@@ -150,7 +150,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 商户暂停营业
+     * 商户暂停营业.
      *
      * @param  array  $params
      * @return string
@@ -161,7 +161,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 商户开业
+     * 商户开业.
      *
      * @param  array  $params
      * @return string
@@ -195,7 +195,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 修改商户
+     * 修改商户.
      *
      * @param  array  $params
      * @return string
@@ -206,7 +206,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 查询自配送物流信息
+     * 查询自配送物流信息.
      *
      * @param  array  $params
      * @return string
@@ -217,7 +217,7 @@ class Shop extends BaseRequest
     }
 
     /**
-     * 同步自配送物流信息
+     * 同步自配送物流信息.
      *
      * @param  array  $params
      * @return string

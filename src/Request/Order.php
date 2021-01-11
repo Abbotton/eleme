@@ -29,7 +29,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 订单催单通知
+     * 订单催单通知.
      *
      * @param  array  $params
      * @return string
@@ -53,7 +53,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 退款
+     * 退款.
      *
      * @param  array  $params
      * @return string
@@ -65,7 +65,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 创建订单
+     * 创建订单.
      *
      * @param  array  $params
      * @return string
@@ -77,7 +77,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 退单
+     * 退单.
      *
      * @param  array  $params
      * @return string
@@ -88,7 +88,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 商户发起部分退款申请
+     * 商户发起部分退款申请.
      *
      * @param  array  $params
      * @return string
@@ -99,7 +99,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 查看部分退款订单详情
+     * 查看部分退款订单详情.
      *
      * @param  array  $params
      * @return string
@@ -110,7 +110,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 获取未处理部分退单
+     * 获取未处理部分退单.
      *
      * @param  array  $params
      * @return string
@@ -121,7 +121,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 订单拣货完成
+     * 订单拣货完成.
      *
      * @param  array  $params
      * @return string
@@ -132,7 +132,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 获取订单隐私信息
+     * 获取订单隐私信息.
      *
      * @param  array  $params
      * @return string
@@ -143,7 +143,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 获取商户未处理催单
+     * 获取商户未处理催单.
      *
      * @param  array  $params
      * @return string
@@ -154,7 +154,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 商户回复催单
+     * 商户回复催单.
      *
      * @param  array  $params
      * @return string
@@ -165,7 +165,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 订单送出
+     * 订单送出.
      *
      * @param  array  $params
      * @return string
@@ -242,7 +242,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 取消订单
+     * 取消订单.
      *
      * @param  array  $params
      * @return string
@@ -264,7 +264,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 退单
+     * 退单.
      *
      * @param  array  $params
      * @return string
@@ -275,7 +275,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 订单送达
+     * 订单送达.
      *
      * @param  array  $params
      * @return string
@@ -286,7 +286,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 确认订单
+     * 确认订单.
      *
      * @param  array  $params
      * @return string
@@ -297,7 +297,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 获取订单配送信息
+     * 获取订单配送信息.
      *
      * @param  array  $params
      * @return string
@@ -308,7 +308,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 退单
+     * 退单.
      *
      * @param  array  $params
      * @return string
@@ -319,7 +319,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 查看订单详情
+     * 查看订单详情.
      *
      * @param  array  $params
      * @return string
@@ -330,7 +330,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 获取众包订单配送费
+     * 获取众包订单配送费.
      *
      * @param  array  $params
      * @return string
@@ -341,7 +341,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 订单号转换
+     * 订单号转换.
      *
      * @param  array  $params
      * @return string
@@ -363,7 +363,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 查看订单列表
+     * 查看订单列表.
      *
      * @param  array  $params
      * @return string
@@ -374,7 +374,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 获取账单
+     * 获取账单.
      *
      * @param array $params
      * @return string
@@ -385,7 +385,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 获取账单订单明细信息
+     * 获取账单订单明细信息.
      *
      * @param array $params
      * @return string
@@ -396,7 +396,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 自配送接入骑手轨迹
+     * 自配送接入骑手轨迹.
      *
      * @param array $params
      * @return string
@@ -429,7 +429,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 用户多次退商家同意
+     * 用户多次退商家同意.
      *
      * @param array $params
      * @return string
@@ -440,7 +440,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 代客发起
+     * 代客发起.
      *
      * @param array $params
      * @return string
@@ -451,7 +451,7 @@ class Order extends BaseRequest
     }
 
     /**
-     * 代客发起
+     * 代客发起.
      *
      * @param array $params
      * @return string

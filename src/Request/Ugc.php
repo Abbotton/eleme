@@ -5,7 +5,7 @@ namespace Abbotton\Eleme\Request;
 class Ugc extends BaseRequest
 {
     /**
-     * 回复评论
+     * 回复评论.
      *
      * @param  array  $params
      * @return string
@@ -16,7 +16,7 @@ class Ugc extends BaseRequest
     }
 
     /**
-     * 获取商户订单评论
+     * 获取商户订单评论.
      *
      * @param  array  $params
      * @return string
