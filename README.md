@@ -36,3 +36,13 @@ var_dump(json_decode($result, true));
 ### Change Log
 * 2020年07月20日
     - v1.0.0发布 :sparkles:
+    
+* 2021年01月11日
+    - v1.0.6发布
+        - 完善单元测试
+        - 同步官方接口
+        - 其他细微调整
+    
+* 2021年01月12日
+    - v1.0.7发布
+        - 将composer.lock文件加入到版本库
