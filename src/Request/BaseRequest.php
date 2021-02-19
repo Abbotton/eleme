@@ -45,9 +45,11 @@ class BaseRequest
         $params['ticket'] = $this->getTicket();
         $params['version'] = $this->config->version;
         $params['timestamp'] = time();
-        $params['access_token'] = $this->config->accessToken;
-        $params['encrypt'] = '';
+        $params['encrypt'] = 'aes';
         $params['body'] = json_encode($body, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        if ($this->config->accessToken) {
+            $params['access_token'] = $this->config->accessToken;
+        }
         $params['sign'] = $this->generateSign($params);
 
         return $params;

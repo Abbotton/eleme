@@ -28,19 +28,6 @@ class ConfigTest extends TestCase
         }
     }
 
-    public function test_will_get_except_if_access_token_is_not_set()
-    {
-        try {
-            $config = [
-                'app_id' => 'foo',
-                'app_secret' => 'bar',
-            ];
-            new Config($config);
-        } catch (\Exception $e) {
-            $this->assertEquals('请设置access_token', $e->getMessage());
-        }
-    }
-
     public function test_will_get_instance_if_config_is_right()
     {
         $config = [
