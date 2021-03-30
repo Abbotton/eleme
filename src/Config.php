@@ -22,7 +22,7 @@ class Config
         }
         $this->appKey = $config['app_id'];
         $this->appSecret = $config['app_secret'];
-        if ($config['access_token']) {
+        if (isset($config['access_token']) && $config['access_token']) {
             $this->accessToken = $config['access_token'];
         }
     }
