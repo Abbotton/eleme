@@ -175,7 +175,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function nitemSpecialCreate(array $params)
+    public function nItemSpecialCreate(array $params)
     {
         return $this->post('activity.nitemspecial.create', $params);
     }
@@ -186,7 +186,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function shopactDetailAddSingle(array $params)
+    public function shopActDetailAddSingle(array $params)
     {
         return $this->post('act.shopact.detail.add.single', $params);
     }
@@ -197,7 +197,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmSkuList(array $params)
+    public function nGiftmSkuList(array $params)
     {
         return $this->post('activity.ngiftm.sku.list', $params);
     }
@@ -208,7 +208,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function nitemSpecialSkuUpdate(array $params)
+    public function nItemSpecialSkuUpdate(array $params)
     {
         return $this->post('activity.nitemspecial.sku.update', $params);
     }
@@ -252,7 +252,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function nitemSpecialSkuAdd(array $params)
+    public function nItemSpecialSkuAdd(array $params)
     {
         return $this->post('activity.nitemspecial.sku.add', $params);
     }
@@ -263,7 +263,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function shopactDetailQuery(array $params)
+    public function shopActDetailQuery(array $params)
     {
         return $this->post('act.shopact.detail.query', $params);
     }
@@ -274,7 +274,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmGet(array $params)
+    public function nGiftmGet(array $params)
     {
         return $this->post('activity.ngiftm.get', $params);
     }
@@ -285,7 +285,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function shopactModify(array $params)
+    public function shopActModify(array $params)
     {
         return $this->post('act.shopact.modify', $params);
     }
@@ -296,7 +296,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmSkuAddBatch(array $params)
+    public function nGiftmSkuAddBatch(array $params)
     {
         return $this->post('activity.ngiftm.sku.add.batch', $params);
     }
@@ -307,7 +307,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmSkuUpdateBatch(array $params)
+    public function nGiftmSkuUpdateBatch(array $params)
     {
         return $this->post('activity.ngiftm.sku.update.batch', $params);
     }
@@ -318,7 +318,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function nitemSpecialUpdate(array $params)
+    public function nItemSpecialUpdate(array $params)
     {
         return $this->post('activity.nitemspecial.update', $params);
     }
@@ -329,7 +329,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function shopactDetailDel(array $params)
+    public function shopActDetailDel(array $params)
     {
         return $this->post('act.shopact.detail.del', $params);
     }
@@ -340,7 +340,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function nitemSpecialGet(array $params)
+    public function nItemSpecialGet(array $params)
     {
         return $this->post('activity.nitemspecial.get', $params);
     }
@@ -362,7 +362,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmUpdate(array $params)
+    public function nGiftmUpdate(array $params)
     {
         return $this->post('activity.ngiftm.update', $params);
     }
@@ -395,7 +395,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmSkuUpdate(array $params)
+    public function nGiftmSkuUpdate(array $params)
     {
         return $this->post('activity.ngiftm.sku.update', $params);
     }
@@ -417,7 +417,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmCreate(array $params)
+    public function nGiftmCreate(array $params)
     {
         return $this->post('activity.ngiftm.create', $params);
     }
@@ -428,7 +428,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function nitemSpecialSkuAddBatch(array $params)
+    public function nItemSpecialSkuAddBatch(array $params)
     {
         return $this->post('activity.nitemspecial.sku.add.batch', $params);
     }
@@ -439,7 +439,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function ngiftmSkuAdd(array $params)
+    public function nGiftmSkuAdd(array $params)
     {
         return $this->post('activity.ngiftm.sku.add', $params);
     }
@@ -450,7 +450,7 @@ class Activity extends BaseRequest
      * @param array $params
      * @return string
      */
-    public function nitemSpecialSkuUpdateBatch(array $params)
+    public function nItemSpecialSkuUpdateBatch(array $params)
     {
         return $this->post('activity.nitemspecial.sku.update.batch', $params);
     }

@@ -154,6 +154,7 @@ class Shop extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function offline(array $params)
     {

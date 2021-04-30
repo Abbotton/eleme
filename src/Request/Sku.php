@@ -344,4 +344,15 @@ class Sku extends BaseRequest
     {
         return $this->post('sku.spec.update.price', $params);
     }
+
+    /**
+     * 渠道商品追加多规格sku
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function specUpdateAppend(array $params)
+    {
+        return $this->post('sku.spec.update.append', $params);
+    }
 }

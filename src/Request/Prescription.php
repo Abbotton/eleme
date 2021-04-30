@@ -59,4 +59,15 @@ class Prescription extends BaseRequest
     {
         return $this->post('prescription.save', $params);
     }
+
+    /**
+     * 药师审方结果回传.
+     *
+     * @param array $params
+     * @return mixed
+     */
+    public function orderAuditResult(array $params)
+    {
+        return $this->post('drug.prescription.order.audit.result', $params);
+    }
 }

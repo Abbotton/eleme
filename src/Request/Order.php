@@ -345,6 +345,7 @@ class Order extends BaseRequest
      *
      * @param  array  $params
      * @return string
+     * @deprecated
      */
     public function idConvert(array $params)
     {
