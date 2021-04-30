@@ -346,7 +346,7 @@ class Sku extends BaseRequest
     }
 
     /**
-     * 渠道商品追加多规格sku
+     * 渠道商品追加多规格sku.
      *
      * @param  array  $params
      * @return string
