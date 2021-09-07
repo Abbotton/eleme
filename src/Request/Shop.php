@@ -132,7 +132,7 @@ class Shop extends BaseRequest
      * @param  array  $params
      * @return string
      */
-    public function list(array $params)
+    public function shopList(array $params)
     {
         return $this->post('shop.list', $params);
     }

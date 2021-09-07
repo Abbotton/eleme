@@ -164,7 +164,7 @@ class Sku extends BaseRequest
      * @param  array  $params
      * @return string
      */
-    public function list(array $params)
+    public function skuList(array $params)
     {
         return $this->post('sku.list', $params);
     }
