@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase
 {
-    public function getApplicationInstance(): Application
+    public function getApplicationInstance()
     {
         $config = [
             'app_id' => 'foo',
