@@ -23,6 +23,7 @@ class ApplicationTest extends TestCase
     public function test_request_class_not_exist()
     {
         $application = $this->getApplicationInstance();
+
         try {
             $application->foo->bar();
         } catch (\Exception $e) {
