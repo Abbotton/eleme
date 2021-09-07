@@ -461,4 +461,15 @@ class Order extends BaseRequest
     {
         return $this->post('order.query.acceptancecode', $params);
     }
+
+    /**
+     * 逆向单配送信息获取.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function refundDeliveryGet(array $params)
+    {
+        return $this->post('order.refundDelivery.get', $params);
+    }
 }

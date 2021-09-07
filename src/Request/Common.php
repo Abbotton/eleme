@@ -69,4 +69,15 @@ class Common extends BaseRequest
     {
         return $this->post('common.shop.city.get', $params);
     }
+
+    /**
+     * 物流履约状态更新.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function lpdspUpdStatus(array $params)
+    {
+        return $this->post('common.lpdsp.updstatus', $params);
+    }
 }

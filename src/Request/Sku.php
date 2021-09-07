@@ -355,4 +355,26 @@ class Sku extends BaseRequest
     {
         return $this->post('sku.spec.update.append', $params);
     }
+
+    /**
+     * 批量创建渠道商品.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function batchSkuCreate(array $params)
+    {
+        return $this->post('batch.sku.create', $params);
+    }
+
+    /**
+     * 批量更新渠道商品.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function batchSkuUpdate(array $params)
+    {
+        return $this->post('batch.sku.update', $params);
+    }
 }
