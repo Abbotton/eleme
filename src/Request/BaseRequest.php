@@ -36,7 +36,7 @@ class BaseRequest
         return $response->getBody()->getContents();
     }
 
-    private function getParams(string $cmd, array $body)
+    private function getParams($cmd, array $body)
     {
         $params = [];
         $params['cmd'] = $cmd;
