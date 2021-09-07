@@ -3,16 +3,16 @@ name : run-tests
 on :
   push :
     branches : [ main ]
+    tags-ignore :
+      - '*.*'
     paths-ignore :
-      - '*/*.md'
-      - '*/*.yml'
-      - '*/*.xml'
+      - README.md
+      - LICENSE
   pull_request :
     branches : [ main ]
     paths-ignore :
-      - '*/*.md'
-      - '*/*.yml'
-      - '*/*.xml'
+      - README.md
+        - LICENSE
 
 jobs :
   test :
