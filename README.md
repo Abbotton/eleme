@@ -67,3 +67,7 @@ var_dump(json_decode($result, true));
         - 同步官方最新接口
         - 集成Github Action
         - 移除StyleCi等第三方服务
+
+* 2021年09月21日
+    - v1.1.1发布
+        - 同步官方最新接口

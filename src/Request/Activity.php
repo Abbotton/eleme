@@ -454,4 +454,169 @@ class Activity extends BaseRequest
     {
         return $this->post('activity.nitemspecial.sku.update.batch', $params);
     }
+
+    /**
+     * 商品真折扣批量修改商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function itemdiscountSkuUpdateBatch(array $params)
+    {
+        return $this->post('act.itemdiscount.sku.update.batch', $params);
+    }
+
+    /**
+     * 【第N件特价真折扣】商品第N件特价真折扣批量修改商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function nitemdiscountSkuUpdateBatch(array $params)
+    {
+        return $this->post('act.nitemdiscount.sku.update.batch', $params);
+    }
+
+    /**
+     * 【第N件特价真折扣】商品第N件特价真折扣修改商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function nitemdiscountSkuUpdate(array $params)
+    {
+        return $this->post('act.nitemdiscount.sku.update', $params);
+    }
+
+    /**
+     * 商品X件Y元/折批量添加商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function xdiscountySkuAddBatch(array $params)
+    {
+        return $this->post('act.xdiscounty.sku.add.batch', $params);
+    }
+
+    /**
+     * 商品真折扣添加商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function itemdiscountSkuAdd(array $params)
+    {
+        return $this->post('act.itemdiscount.sku.add', $params);
+    }
+
+    /**
+     * 商品真折扣批量添加商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function itemdiscountSkuAddBatch(array $params)
+    {
+        return $this->post('act.itemdiscount.sku.add.batch', $params);
+    }
+
+    /**
+     * 商品X件Y元/折创建活动.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function xdiscountyCreate(array $params)
+    {
+        return $this->post('act.xdiscounty.create', $params);
+    }
+
+    /**
+     * 【第N件特价真折扣】商品第N件特价真折扣修改活动信息.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function nitemdiscountModify(array $params)
+    {
+        return $this->post('act.nitemdiscount.modify', $params);
+    }
+
+    /**
+     * 商品X件Y元/折修改活动信息.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function xdiscountyModify(array $params)
+    {
+        return $this->post('act.xdiscounty.modify', $params);
+    }
+
+    /**
+     * 商品真折扣创建活动.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function itemdiscountCreate(array $params)
+    {
+        return $this->post('act.itemdiscount.create', $params);
+    }
+
+    /**
+     * 商品X件Y元/折添加商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function xdiscountySkuAdd(array $params)
+    {
+        return $this->post('act.xdiscounty.sku.add', $params);
+    }
+
+    /**
+     * 商品真折扣修改活动信息.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function itemdiscountModify(array $params)
+    {
+        return $this->post('act.itemdiscount.modify', $params);
+    }
+
+    /**
+     * 【商品特价真折扣】商品真折扣修改商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function itemdiscountSkuUpdate(array $params)
+    {
+        return $this->post('act.itemdiscount.sku.update', $params);
+    }
+
+    /**
+     * 【第N件特价真折扣】商品第N件特价真折扣批量添加商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function nitemdiscountSkuAddBatch(array $params)
+    {
+        return $this->post('act.nitemdiscount.sku.add.batch', $params);
+    }
+
+    /**
+     * 【第N件特价真折扣】商品第N件特价真折扣添加商品明细.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function nitemdiscountSkuAdd(array $params)
+    {
+        return $this->post('act.nitemdiscount.sku.add', $params);
+    }
 }
