@@ -4,6 +4,7 @@ namespace Abbotton\Eleme;
 
 use Abbotton\Eleme\Request\Activity;
 use Abbotton\Eleme\Request\Common;
+use Abbotton\Eleme\Request\Cpc;
 use Abbotton\Eleme\Request\Order;
 use Abbotton\Eleme\Request\Prescription;
 use Abbotton\Eleme\Request\Shop;
@@ -16,6 +17,7 @@ use GuzzleHttp\Client;
  * Class Application.
  *
  * @property Activity $activity
+ * @property Cpc $cpc
  * @property Common $common
  * @property Order $order
  * @property Prescription $prescription
