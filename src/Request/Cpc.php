@@ -4,8 +4,6 @@ namespace Abbotton\Eleme\Request;
 
 class Cpc extends BaseRequest
 {
-
-
     /**
      * 根据出价查询预估信息.
      *
@@ -60,7 +58,6 @@ class Cpc extends BaseRequest
     {
         return $this->post('cpc.updateAutoStatus', $params);
     }
-
 
     /**
      * 查询推荐价格、预估信息.
