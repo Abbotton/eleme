@@ -146,4 +146,15 @@ class Cpc extends BaseRequest
     {
         return $this->post('cpc.getActualRanking', $params);
     }
+
+    /**
+     * 查询余额.
+     *
+     * @param  array  $params
+     * @return mixed
+     */
+    public function getAllBalance(array $params)
+    {
+        return $this->post('cpc.getAllBalance', $params);
+    }
 }

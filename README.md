@@ -25,13 +25,15 @@ var_dump(json_decode($result, true));
 ### 模块与类的对应关系
 | 模块名称 | 对应类 |
 | ----: | :---- |
-| [公共](https://open-be.ele.me/dev/api/apidoc#/%E5%85%AC%E5%85%B1) | $app->common |
-| [营销](https://open-be.ele.me/dev/api/apidoc#/%E8%90%A5%E9%94%80) | $app->activity |
-| [订单](https://open-be.ele.me/dev/api/apidoc#/%E8%AE%A2%E5%8D%95) | $app->order |
-| [药品相关](https://open-be.ele.me/dev/api/apidoc#/detail/drug.prescription.files) | $app->prescription |
-| [商户](https://open-be.ele.me/dev/api/apidoc#/%E5%95%86%E6%88%B7) | $app->shop |
-| [商品](https://open-be.ele.me/dev/api/apidoc#/%E5%95%86%E5%93%81) | $app->sku |
-| [评论相关](https://open-be.ele.me/dev/api/apidoc#/detail/ugc.reply) | $app->ugc |
+| [公共](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=common_all&page=1&pageSize=100) | $app->common |
+| [营销](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=activity_all&page=1&pageSize=100) | $app->activity |
+| [订单](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=order_all&page=1&pageSize=100) | $app->order |
+| [药品](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=drug_all&page=1&pageSize=100) | $app->prescription |
+| [商户](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=shop_all&page=1&pageSize=100) | $app->shop |
+| [商品](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=item_all&page=1&pageSize=100) | $app->sku |
+| [评论](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=ugc_all&page=1&pageSize=100) | $app->ugc |
+| [CPC竞价服务](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=cpc_all&page=1&pageSize=100) | $app->cpc |
+| [店铺装修](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=decorate_all&page=1&pageSize=100) | $app->decorate |
 
 ### Change Log
 * 2020年07月20日
@@ -75,3 +77,7 @@ var_dump(json_decode($result, true));
 * 2021年10月27日
     - v1.1.2发布
         - 同步官方最新接口
+
+* 2021年12月02日
+  - v1.1.3发布
+      - 同步官方最新接口

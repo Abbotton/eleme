@@ -472,4 +472,15 @@ class Order extends BaseRequest
     {
         return $this->post('order.refundDelivery.get', $params);
     }
+
+    /**
+     * 根据订单发放红包.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function sendCoupon(array $params)
+    {
+        return $this->post('order.send.coupon', $params);
+    }
 }
