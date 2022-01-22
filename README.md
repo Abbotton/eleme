@@ -23,17 +23,18 @@ var_dump(json_decode($result, true));
 ```
 
 ### 模块与类的对应关系
-| 模块名称 | 对应类 |
-| ----: | :---- |
-| [公共](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=common_all&page=1&pageSize=100) | $app->common |
-| [营销](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=activity_all&page=1&pageSize=100) | $app->activity |
-| [订单](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=order_all&page=1&pageSize=100) | $app->order |
-| [药品](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=drug_all&page=1&pageSize=100) | $app->prescription |
-| [商户](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=shop_all&page=1&pageSize=100) | $app->shop |
-| [商品](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=item_all&page=1&pageSize=100) | $app->sku |
-| [评论](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=ugc_all&page=1&pageSize=100) | $app->ugc |
-| [CPC竞价服务](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=cpc_all&page=1&pageSize=100) | $app->cpc |
-| [店铺装修](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=decorate_all&page=1&pageSize=100) | $app->decorate |
+|                                                                                                    模块名称 | 对应类                |
+|--------------------------------------------------------------------------------------------------------:|:-------------------|
+|     [公共](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=common_all&page=1&pageSize=100) | $app->common       |
+|   [营销](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=activity_all&page=1&pageSize=100) | $app->activity     |
+|      [订单](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=order_all&page=1&pageSize=100) | $app->order        |
+|       [药品](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=drug_all&page=1&pageSize=100) | $app->prescription |
+|       [商户](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=shop_all&page=1&pageSize=100) | $app->shop         |
+|       [商品](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=item_all&page=1&pageSize=100) | $app->sku          |
+|        [评论](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=ugc_all&page=1&pageSize=100) | $app->ugc          |
+|   [CPC竞价服务](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=cpc_all&page=1&pageSize=100) | $app->cpc          |
+| [店铺装修](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=decorate_all&page=1&pageSize=100) | $app->decorate     |
+|   [IM](https://open-retail.ele.me/#/apidoc?type=api_menu&categoryCode=im_all&page=1&pageSize=100) | $app->im           |
 
 ### Change Log
 * 2020年07月20日
