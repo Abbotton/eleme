@@ -17,7 +17,7 @@ class RequestTest extends TestCase
         $app = $this->getApplicationInstance()->setHttpClient($client);
 
         $responseJson = $this->getResponseJson();
-        $classArray = ['activity', 'common', 'cpc', 'decorate', 'order', 'prescription', 'shop', 'sku', 'ugc'];
+        $classArray = ['activity', 'common', 'cpc', 'decorate', 'im', 'order', 'prescription', 'shop', 'sku', 'ugc'];
         foreach ($classArray as &$class) {
             $reflectionClass = new \ReflectionClass($app->$class);
             $methods = $reflectionClass->getMethods();

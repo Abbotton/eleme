@@ -483,4 +483,48 @@ class Order extends BaseRequest
     {
         return $this->post('order.send.coupon', $params);
     }
+
+    /**
+     * 同意退货.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function agreeReturnGoods(array $params)
+    {
+        return $this->post('order.agreereturngoods', $params);
+    }
+
+    /**
+     * 订单补偿红包列表.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function compensateCouponList(array $params)
+    {
+        return $this->post('order.compensate.coupon.list', $params);
+    }
+
+    /**
+     * 获取医药订单详情.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function medicineGet(array $params)
+    {
+        return $this->post('order.medicine.get', $params);
+    }
+
+    /**
+     * 拒绝用户申请售后退货.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function disagreeReturnGoods(array $params)
+    {
+        return $this->post('order.disagreereturngoods', $params);
+    }
 }

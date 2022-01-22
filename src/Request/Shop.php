@@ -227,4 +227,15 @@ class Shop extends BaseRequest
     {
         return $this->post('shop.deliveryinfo.sync', $params);
     }
+
+    /**
+     * 修改扩展属性.
+     *
+     * @param  array  $params
+     * @return string
+     */
+    public function extendAttributeModify(array $params)
+    {
+        return $this->post('shop.extendAttribute.modify', $params);
+    }
 }
